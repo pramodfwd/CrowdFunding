@@ -1,0 +1,6 @@
+.backgroundImage{
+    background-image: url("../../public/Image/worldA.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 1;
+    }

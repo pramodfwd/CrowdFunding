@@ -1,0 +1,44 @@
+.container {
+  position: relative;
+  width: 24.7vw;
+}
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  transform: "scale(1.5)";
+  text-align: center;
+  pointer-events: none;
+}
+.container:hover .middle {
+  opacity: 1;
+}
+.top {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 13%;
+  width: 100%;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-size: medium;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.container:hover .top {
+  opacity: 1;
+  transform: translateX(-50%);
+  text-align: center;
+  transition: 0.5s ease all;
+  overflow: "hidden";
+}
+.imgMedia {
+  transition: all .4s ease-in-out;
+}
+.imgMedia:hover { 
+   transform: scale(1.5);
+   filter: grayscale(70%);
+}

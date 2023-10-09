@@ -1,0 +1,13 @@
+.backgroundImage {
+    background-image: url("../../public/Image/worldA.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    padding-top: 5rem;
+    opacity: 1;
+}
+.main {
+    margin-top: 0.3;
+    border-radius: 2;
+    min-height: '60vh';
+}
